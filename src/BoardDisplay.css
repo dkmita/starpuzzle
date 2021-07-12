@@ -1,0 +1,92 @@
+
+
+.board-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.board-controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.board-controller .ui.fluid.dropdown {
+  width: 200px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.groups {
+  font-size: 0.75rem;
+}
+
+.groups .groups-list {
+  height: 700px;
+  overflow: scroll;
+}
+
+.think {
+  border: 2px solid white;
+  user-select: none;
+  box-shadow: grey;
+  margin: 0.2rem;
+  padding: 0 0.25rem 0 0.25rem;
+  cursor: pointer;
+  width: 200px;
+}
+
+.think:hover {
+  color: grey;
+}
+
+.square {
+  user-select: none;
+  border-right: 1px grey solid;
+  border-bottom: 1px grey solid;
+  box-sizing: border-box;
+  width: 40px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.square.groupHover {
+  background-color: rgba(97,218,251, 0.5);
+}
+
+.square.lastHover {
+  background-color: rgba(97,218,251, 0.3);
+}
+
+.top {
+  border-top: 3px white solid;
+}
+
+.bottom {
+  border-bottom: 3px white solid;
+}
+
+.left {
+  border-left: 3px white solid;
+}
+
+.right {
+  border-right: 3px white solid;
+}
+
+.x {
+  color: red;
+}
+
+.star {
+  margin: 6px 0 -6px 0;
+  width: 20px;
+}
+
+
+
+
